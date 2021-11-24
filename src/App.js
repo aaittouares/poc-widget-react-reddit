@@ -59,11 +59,11 @@ function App({domElement}) {
       <p className="reddit_widget__powered_by">
         This widget is powered by{" "}
         <a
-          href="https://javascriptpros.com"
+          href="https://github.com/aaittouares/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          JavaScriptPros.com
+          github.com/aaittouares/
         </a>
       </p>
     </div>
