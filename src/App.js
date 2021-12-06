@@ -23,9 +23,9 @@ function nonStickiedOnly(post){
 }
 
 
-function App({domElement}) {
+function App({/*domElement*/ subreddit}) {
 
-  const subreddit = domElement.getAttribute("data-subreddit");
+  //const subreddit = domElement.getAttribute("data-subreddit");
   const [loading, setLoading] = useState();
   const [error, setError] = useState('');
   const [data, setData] = useState([]);
